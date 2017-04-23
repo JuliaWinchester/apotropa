@@ -11,61 +11,16 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
   	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
   	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+  	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
   	<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
 	<!-- CSS -->
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+	<!-- App files -->
+	<script src="app.js"></script>
 	<title>Julie Winchester</title>
 </head>
-<body flex ng-app="MaterialApp" ng-cloak class="body" layout="row" layout-align="center start">
-	<script type="text/javascript">    
-		angular.module('MaterialApp', ['ngMaterial']);
-	</script>
-	<md-content class="column content" layout="column" layout-align="start stretch">
-		<header>
-			<img src="teeth_800width.png" class="shadow" />
-		</header>
-		<nav layout="row" layout-align="space-around center" class="space">
-			<span flex="10"></span>
-			<a class="md-subhead gray-text" href="">Home</a>
-			:
-			<a class="md-subhead gray-text" href="code/">Code and digital data</a>
-			:
-			<a class="md-subhead gray-text" href="publication/">Publications</a>
-			:
-			<a class="md-subhead gray-text" href="teaching/">Teaching</a>
-			<span flex="10"></span>
-		</nav>
-		
-		<section layout="row" layout-align="center start" class="space">
-			<article class="">
-				<p class="md-body-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a est leo. Nullam faucibus justo ac orci tincidunt eleifend sed at diam. Cras vitae ante elementum, molestie augue vitae, gravida eros. Integer ac semper lacus. Cras malesuada quam lectus, at tempor mi tincidunt ac. Donec est dolor, rutrum quis eros sed, eleifend varius dolor. Morbi sagittis finibus ante, eu dictum est feugiat a.</p>
-
-				<p class="md-body-1">Phasellus pretium tellus sem, sed luctus augue fermentum non. Nulla facilisi. In mattis sapien id imperdiet finibus. Vestibulum sagittis at risus at elementum. Nulla urna turpis, blandit ac neque sit amet, lacinia feugiat metus. In vestibulum tellus at egestas sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec malesuada neque vitae massa tristique, in ornare ipsum tincidunt. Integer fringilla felis sed quam rhoncus fringilla. Duis dapibus ante semper arcu aliquam, sit amet maximus risus porttitor.</p>
-			</article>
-			<span flex="20"></span>
-			<aside flex="40" layout="column" layout-align="center center">
-				<img src="old_pic.jpg" class="personal_pic" />
-				<div layout="column">
-					<span class="md-body-2 textcenter">Julie Winchester</span>
-					<span class="md-body-1 textcenter">Postdoctoral Associate</span>
-					<a class="md-body-1 textcenter gray-text" href="http://www.dougmboyer.com/">Boyer Lab</a>
-					<a class="md-body-1 textcenter gray-text" href="https://evolutionaryanthropology.duke.edu/">Department of Evolutionary Anthropology</a>
-					<span class="md-body-1 textcenter">Duke University</span>
-					
-				</div>
-				<div layout="column" style="margin-top: 10px">
-					<span class="md-body-1 textcenter">E-mail: julia.winchester@duke.edu</span>
-					<span class="md-body-1 textcenter">Phone: 888.888.888</span>
-				</div>
-			</aside>
-		</section>
-		<md-divider style="margin-top: 20px" class="gray-text"></md-divider>
-		<footer layout="row" layout-align="center center" class="space">
-			<span class="md-body-1 gray-text">Julie Winchester</span>
-			<span flex="10"></span>
-			<span class="md-body-1 gray-text">julia.winchester@duke.edu</span>
-		</footer>
-	</md-content>
+<body flex ng-app="ApotropaApp" ng-cloak class="body" layout="row" layout-align="center start">
+	<div flex ng-view=""></div>
 </body>
 </html>
