@@ -1,6 +1,5 @@
 <!-- index.html -->
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -20,7 +19,31 @@
 	<script src="app.js"></script>
 	<title>Julie Winchester</title>
 </head>
-<body flex ng-app="ApotropaApp" ng-cloak class="body" layout="row" layout-align="center start">
-	<div flex ng-view=""></div>
+<body ng-app="ApotropaApp" ng-cloak class="body">
+	<div layout="column" layout-align="start center">
+		<md-content class="column content">
+		<header>
+			<img src="teeth_800width.png" class="shadow" />
+		</header>
+		<nav flex layout="row" layout-align="space-around center" class="space">
+			<span flex="10"></span>
+			<a class="md-subhead gray-text" href="#/">Home</a>
+			:
+			<a class="md-subhead gray-text" href="#/code/">Code and digital data</a>
+			:
+			<a class="md-subhead gray-text" href="publication/">Publications</a>
+			:
+			<a class="md-subhead gray-text" href="teaching/">Teaching</a>
+			<span flex="10"></span>
+		</nav>
+		<div ng-view=""></div>
+		<md-divider style="margin-top: 20px" class="gray-text"></md-divider>
+		<footer layout="row" layout-align="center center" class="space" style="min-height: 20px">
+			<span class="md-body-1 gray-text">Julie Winchester</span>
+			<span flex="10"></span>
+			<span class="md-body-1 gray-text">julia.winchester@duke.edu</span>
+		</footer>
+		</md-content>
+	</div>
 </body>
 </html>
