@@ -53,7 +53,7 @@ section {
 }
 
 .anatomy_pic {
-	max-width: 300px;
+	overflow: hidden;
 }
 
 nav {
@@ -75,6 +75,18 @@ nav {
 }
 
 .code_div {
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.teach_entry {
+	max-width: 312px;
+	min-width: 312px;
+	width: 312px;
+}
+
+.code_entry {
+	max-width: 592px;
+	min-width: 592px;
+	width: 592px;
 }
