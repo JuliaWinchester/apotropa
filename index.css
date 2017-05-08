@@ -29,7 +29,7 @@ section {
 	color: #27487c;
 }
 
-aside {
+.card {
 	margin-right: 5px;
 	min-width: 240px;
 	/*background: #52576e;*/
@@ -50,4 +50,31 @@ aside {
 
 .textcenter {
 	text-align: center;
+}
+
+.anatomy_pic {
+	max-width: 300px;
+}
+
+nav {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	/*padding: 20px;*/
+	/*background-color: #ededed;*/
+	/*margin: none;*/
+	/*border: 1px solid #d1d2d3;*/
+}
+
+.top {
+	margin-bottom: 0px;
+}
+
+.sub {
+	margin-top: 5px;
+	padding-left: 25px;
+}
+
+.code_div {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }

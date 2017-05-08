@@ -16,6 +16,10 @@ angular.module('ApotropaApp', ['ngMaterial', 'ngRoute'])
 			templateUrl: 'teaching/teaching.html',
 			controller: 'MainController'
 		})
+		.when('/skills', {
+			templateUrl: 'skills/skills.html',
+			controller: 'MainController'
+		})
 		.otherwise({
 			templateUrl: 'home.html',
 			controller: 'MainController'
