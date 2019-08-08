@@ -3,6 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
 	<!-- Fonts and icons -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
 	<!-- JS libraries -->
@@ -21,24 +22,24 @@
 </head>
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 <body ng-app="DndApp" ng-cloak class="body">
-	<div layout="column" layout-align="start center">
+	<div layout="column" layout-align="center center">
 		<md-content class="column content">
 		<header>
-			<img src="combined_cover_crop.png" class="shadow" />
+			<img src="combined_cover_crop.png" class="shadow" style="max-width: 100%" />
 		</header>
-		<section layout="column" layout-align="center center" class="space">
-			<h1 class="md-display-1" style='margin-bottom: 0px;'>Dragons of Phandelver</h1>
-			<h2 class="md-subhead" style='margin-top: 0px; font-weight: lighter;'>A mash-up of Lost Mines of Phandelver and Dragon of Icespire Peak</h2>
+		<section layout-margin layout="column" layout-align="center center" class="space">
+			<h1 class="md-display-1" style='margin-bottom: 0px; text-align: center;'>Dragons of Phandelver</h1>
+			<h2 class="md-subhead" style='margin-top: 0px; font-weight: lighter; text-align: center;'>A Mash-Up of Lost Mines of Phandelver and Dragon of Icespire Peak</h2>
 		</section>
-		<section layout="column" layout-align="center center" class="space">
+		<section layout-margin layout="column" layout-align="center center" class="space">
 			<article class="">
 				
 				<p class="md-body-1">A few decades ago, the sword coast was ravaged by swarms of dragons goaded into action by their dark queen Tiamat. Great and wise folk heroes turned back the tide of destruction at great cost to themselves and the region, defeating the dragon and preventing Tiamat from entering completely into the world. The destruction and the unrest wreaked on the sword coast were significant, yet in many ways the people here are bouncing back. They are thriving in a dangerous and unpredictable world. But unfortunately, in at least one area the lingering effects of that long-ago tribulation are creating new fresh chaos.</p>  
 				<p class="md-body-1">In an echo of that far off time, the lands surrounding Phandalin are beset by dragons. For the first time in a generation, locals have spotted great scaly beasts silhouetted through the clouds. Livestock have gone missing, and copses of trees bear great scars of broken trunks and branches. No one knows exactly how many of the creatures there are or exactly what they look like, but the diversity of descriptions suggest more than one of the terrors lurks above.</p>
 			</article>
 		</section>
-		<md-divider style="margin-top: 20px" class="gray-text"></md-divider>
-		<footer layout="row" layout-align="center center" class="space" style="min-height: 20px">
+		<md-divider style="margin-top: 20px; margin-left: 8px; margin-right: 8px;" class="gray-text"></md-divider>
+		<footer layout-margin layout="row" layout-align="center center" class="space" style="min-height: 20px">
 			<span class="md-body-1 gray-text">Julie Winchester</span>
 			<span flex="10"></span>
 			<span class="md-body-1 gray-text">julia.m.winchester@gmail.com</span>
